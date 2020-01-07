@@ -64,3 +64,27 @@ public class DBInsertServlet extends HttpServlet {
   }
   
  
+
+
+
+
+/////////////////////////html document//////////////
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="dbinsert" method="post">
+<input type ="text" placeholder= "Enter book Id" name="bookId">
+<input type ="text" placeholder= "Enter book name" name="bookName">
+<input type ="submit" value="Save Book">
+
+
+</form>
+
+
+</body>
+</html
